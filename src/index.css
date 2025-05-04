@@ -4,3 +4,13 @@ html, body, #root {
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: mainfont;
+    src: url("/fonts/mainfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: bodonimoda;
+    src: url("/fonts/bodonimodavariable.ttf") format("truetype");
+}
