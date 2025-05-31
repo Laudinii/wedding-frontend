@@ -7,12 +7,12 @@ import { getInvitation } from "./api";
 import Sleep from "./components/Sleep/Sleep";
 import Food from "./components/Food";
 import { Button } from "@mui/material";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { AttendsChange, AttendsForm } from "./types";
 
 export default function InvitationPage() {
   const { id } = useParams();
-  const { isLoading, isError } = useQuery({
+  const { isError } = useQuery({
     queryKey: ["get-invitation-details"],
     queryFn: () => getInvitation(id),
     enabled: !!id,

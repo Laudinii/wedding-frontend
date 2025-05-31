@@ -1,6 +1,6 @@
-import { Button, Card, TextareaAutosize, TextField } from "@mui/material";
+import { Card, TextField } from "@mui/material";
 import * as S from "../sharedStyles";
-import React, { ChangeEventHandler } from "react";
+import React from "react";
 
 interface Props {
   food: string;

@@ -1,6 +1,5 @@
 import { Card, ToggleButton, ToggleButtonGroup } from "@mui/material";
 import * as S from "../sharedStyles";
-import { colors } from "../../../../utils/colors";
 
 interface Props {
   sleep: boolean;
